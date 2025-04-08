@@ -1,0 +1,20 @@
+export const users = [
+  { identifier: "Delores P", password: "strong@PasswordV10", role: "Super DSI" },
+  { identifier: "SDCCDLA", password: "fM5!nS^yvl8Ic", role: "SDCC" },
+  { identifier: "SDCC2", password: "fK8&#nnxx8", role: "SDCC" },
+  { identifier: "DIRPOMDLA", password: "oR7!T8fTZ@#14", role: "Dirpom" },
+  { identifier: "DIRPOM-OPL", password: "gY4@g^%2LR^@?Zg*", role: "Dirpom opérationnel" },
+  { identifier: "MAIREDLA", password: "sV1@S1A5hkxBbn!", role: "Maire" },
+  { identifier: "MAIRE_OP", password: "sV1@S1A5hkxBbn!", role: "Maire opérationnel" },
+  { identifier: "GUICHETDLA_OPS", password: "yJ9#4i^w*b", role: "GUCE OPS" },
+  { identifier: "GUICHETUNIQUE", password: "yJ9#4i^w*b@", role: "GUCE" },
+  { identifier: "DAFIB", password: "zW6$HsRvqZi", role: "Dafib" },
+  { identifier: "DAFIB_OP", password: "zW6$HsRvqZi", role: "Dafib-ops" },
+  { identifier: "AGENTDLA", password: "uT8%6Zn!vr61", role: "Agent" },
+  { identifier: "RECETTEDLA", password: "qW9%0Fze^^siMN", role: "Recette municipale" },
+  { identifier: "RECETTEOPS", password: "nO8@$DHr7m6CEDA", role: "Recette municipale opérationnelle" },
+  { identifier: "DP_MUNICIPALE_OPS", password: "wC2?5EFHk-&@", role: "Police municipale opérationnelle" },
+  { identifier: "DIPORMDLA", password: "string@Password237", role: "Direction de police municipale" },
+  { identifier: "wireka3395@oziere.com", password: "12!@qwQW", role: "Partner" },
+  { identifier: "gapoxi3208@dwriters.com", password: "jE9^8#vt@Qee!", role: "Partner" }
+];

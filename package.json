@@ -1,0 +1,46 @@
+{
+  "name": "Urbany_automation",
+  "version": "1.0.0",
+  "description": "Automated testing for Urbany system using Cypress, Docker, and GitHub Actions.",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:api": "cypress run --spec 'cypress/e2e/api'",
+    "cy:run:dashboard": "cypress run --spec 'cypress/e2e/dashboard'",
+    "cy:report": "cypress run --reporter mochawesome",
+    "cy:clean": "cypress cache clear && rm -rf node_modules && pnpm install",
+    "start": "echo 'Start the Urbany system locally'",
+    "build": "echo 'Build the Urbany system'",
+    "docker:test": "docker build -t urbany-tests . && docker run -it urbany-tests",
+    "lint": "echo 'Linting the project...'",
+    "format": "echo 'Formatting the code...'",
+    "test": "pnpm run cy:report"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "testing",
+    "urbany",
+    "docker",
+    "github-actions"
+  ],
+  "author": "sevengps",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.50.3",
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@faker-js/faker": "^9.6.0",
+    "cypress": "^14.2.1",
+    "cypress-dotenv": "^3.0.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-watch-and-reload": "^1.10.18",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "mailosaur": "^8.8.1",
+    "mailslurp-client": "^15.21.0",
+    "pdf-parse": "^1.1.1",
+    "typescript": "4.9.5"
+  }
+}

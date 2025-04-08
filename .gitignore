@@ -1,0 +1,11 @@
+# Fichiers d'environnement
+.env
+cypress.env.json
+
+# Dossiers de dépendances
+node_modules/
+
+# Dossiers de rapports et cache
+cypress/results/
+cypress/screenshots/
+cypress/videos/
