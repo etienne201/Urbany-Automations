@@ -86,6 +86,7 @@ cy.get(':nth-child(2) > .chakra-input__group > #email').type(fineData.payerCardN
       //.trigger('change', { force: true });
 
     cy.get('input[type="file"]')
+
       .attachFile('assets/logo/BlueWindow.png', { force: true })
       .trigger('change', { force: true });
 
